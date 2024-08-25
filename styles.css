@@ -1,0 +1,87 @@
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Voting Card Styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Title Styling */
+.card h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Question Styling */
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Chart Styling */
+.chart-container {
+    margin-top: 20px;
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+/* Timer Styling */
+.timer {
+    margin-top: 20px;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+/* Chart Data Styling */
+.chart {
+    background-color: #e0f7fa;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
